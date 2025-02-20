@@ -2,10 +2,11 @@ import { Contact } from "./components/contact/Contact";
 import { Hero } from "./components/hero/Hero";
 import { Portfolio } from "./components/portfolio/Portfolio";
 import { Services } from "./components/services/Services";
+import "./index.css";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Hero />
       <Services />
       <Portfolio />
