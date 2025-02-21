@@ -5,6 +5,11 @@
  
 }
 
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
     color: white;
@@ -28,6 +33,13 @@ a {
     margin: auto;
     background-color: #193b6d;
 }
+
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
 
 
 @media (min-width: 640px) { 
